@@ -11,6 +11,5 @@ inner join
 population as pp on pp.code3 = cc.code3
 where 1=1
 --cn.countryname='Germany'
-and 
---pp.ranking='96'
+--and pp.ranking='96'
 order by pp.ranking asc;
